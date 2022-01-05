@@ -525,7 +525,7 @@
   )
 
   (footprint "dresco:PEC11R-4XXXF-SXXXX" (layer "B.Cu")
-    (tedit 61D45636) (tstamp 06305251-e378-4891-9146-8f07d688bb2e)
+    (tedit 61D5BC41) (tstamp 06305251-e378-4891-9146-8f07d688bb2e)
     (at 136.5 107.75 180)
     (descr "PEC11R-4XXXF-SXXXX - Bourns PEC11R Series - 12mm Incremental Encoder")
     (tags "Rotary Encoder")
@@ -572,9 +572,9 @@
       (net 8 "B1") (pinfunction "B") (pintype "passive") (tstamp 182a5668-7729-4d46-b041-f2fd815a50a5))
     (pad "C1" thru_hole circle (at 2.5 -14.5 180) (size 1.65 1.65) (drill 1.1) (layers *.Cu *.Mask)
       (net 2 "GND") (pinfunction "C") (pintype "passive") (tstamp 291f6aa0-1358-42fe-9954-b89ccd2c5246))
-    (pad "MH1" thru_hole circle (at -3.2 -7 180) (size 5.161 5.161) (drill 3.4409) (layers *.Cu *.Mask)
+    (pad "MH1" thru_hole oval (at -3.2 -7 180) (size 3.7 4.5) (drill oval 2 2.8) (layers *.Cu *.Mask)
       (net 9 "unconnected-(REF1-PadMH1)") (pinfunction "MH1") (pintype "passive+no_connect") (tstamp d92c442c-5474-4ae6-afaa-91255eb71289))
-    (pad "MH2" thru_hole circle (at 8.2 -7 180) (size 5.161 5.161) (drill 3.4409) (layers *.Cu *.Mask)
+    (pad "MH2" thru_hole oval (at 8.2 -7 180) (size 3.7 4.5) (drill oval 2 2.8) (layers *.Cu *.Mask)
       (net 10 "unconnected-(REF1-PadMH2)") (pinfunction "MH2") (pintype "passive+no_connect") (tstamp 44599010-3a70-41e9-9cde-98ee62c36535))
     (model "PEC11R-4220F-S0024.stp"
       (offset (xyz 2.499999962 -7.459999926 5.099999828))
